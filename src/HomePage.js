@@ -74,14 +74,18 @@ function HomePage() {
                   <Form.Control
                     type="text"
                     className="bg-1"
-                    value="4324 5433 9382 1030"
+                    defaultValue="4324 5433 9382 1030"
                   />
                 </Form.Group>
               </Col>
               <Col className="mx-2 px-0">
                 <Form.Group className="mb-3" controlId="expiryDate">
                   <Form.Label>Expiry Date</Form.Label>
-                  <Form.Control type="text" className="bg-2" value="03/24" />
+                  <Form.Control
+                    type="text"
+                    className="bg-2"
+                    defaultValue="03/24"
+                  />
                 </Form.Group>
               </Col>
             </Row>
@@ -89,13 +93,21 @@ function HomePage() {
               <Col className="mx-2 px-0">
                 <Form.Group className="mb-3" controlId="securityCode">
                   <Form.Label>Security Code</Form.Label>
-                  <Form.Control type="text" className="bg-2" value="420" />
+                  <Form.Control
+                    type="text"
+                    className="bg-2"
+                    defaultValue="420"
+                  />
                 </Form.Group>
               </Col>
               <Col className="mx-2 px-0">
                 <Form.Group className="mb-3" controlId="postalCode">
                   <Form.Label>Postal Code</Form.Label>
-                  <Form.Control type="text" className="bg-2" value="10119" />
+                  <Form.Control
+                    type="text"
+                    className="bg-2"
+                    defaultValue="10119"
+                  />
                 </Form.Group>
               </Col>
               <div className="mt-3">
